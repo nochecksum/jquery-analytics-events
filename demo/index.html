@@ -1,0 +1,66 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<title>Analytics Events jQuery Plugin Demo</title>
+
+<!-- Two demo links with click tracking -->
+<ul>
+	<li>
+		<a
+			href="https://www.google.com/"
+			data-analytics="true"
+			data-analytics-action="click"
+			data-analytics-category="Clickthrough"
+			data-analytics-label="Google Search"
+			data-analytics-value=5
+		>
+			Search Google
+		</a>
+	</li>
+
+	<li>
+		<a
+			href="https://www.duckduckgo.com/"
+			data-analytics="true"
+			data-analytics-action="click"
+			data-analytics-category="Clickthrough"
+			data-analytics-label="DuckDuckGo Search"
+			data-analytics-value=3
+		>
+			Search DuckDuckGo
+		</a>
+	</li>
+</ul>
+
+<!-- Click tracking on any other element -->
+<div
+	style="padding:20px;background:#ccc;"
+	data-analytics="true"
+	data-analytics-action="click"
+	data-analytics-category="MindlessClicking"
+	data-analytics-label="div click"
+	data-analytics-value=1
+>
+	Clicking this &lt;div&gt; will also fire an event
+</div>
+
+<!-- Requires jQuery -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Analytics Events plugin -->
+<script src="../jquery.analytics-events.js"></script>
+<!-- Google Analytics code -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-51464277-5', 'auto');
+	ga('send', 'pageview');
+</script>
+<!-- Initiate plugin -->
+<script>
+$(document).ready(function(){
+	$('*[data-analytics]').eventify();
+});
+</script>

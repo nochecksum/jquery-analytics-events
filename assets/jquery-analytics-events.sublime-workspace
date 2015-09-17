@@ -1,0 +1,507 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"navbar-",
+				"navbar-account"
+			],
+			[
+				"filterStat",
+				"filterStatusChange"
+			],
+			[
+				"jq",
+				"jqXhr"
+			],
+			[
+				"multi",
+				"multiplierX"
+			],
+			[
+				"LabIT",
+				"LabITKumaFootballBundle"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"isOver",
+				"isOverTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alex/Projects/jquery-analytics-events"
+	],
+	"file_history":
+	[
+		"/Users/alex/Projects/profitacca/src/LabIT/CMSBundle/Resources/config/pageparts/main.yml",
+		"/Users/alex/Projects/profitacca/src/LabIT/CMSBundle/Controller/DefaultController.php",
+		"/Users/alex/Projects/profitacca/src/LabIT/CMSBundle/Resources/config/pagetemplates/membersareapage.yml",
+		"/Users/alex/Projects/profitacca/src/LabIT/CMSBundle/Helper/ApiHelper.php",
+		"/Users/alex/Projects/profitacca/src/LabIT/CMSBundle/Helper/PaymentHelper.php",
+		"/Users/alex/Projects/profitacca/src/LabIT/CMSBundle/Resources/views/Layout/layout.html.twig",
+		"/Users/alex/Projects/profitacca/src/LabIT/CMSBundle/Resources/config/pagetemplates/homepage.yml",
+		"/Users/alex/Projects/bbHost/Site/views/pages/terms.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/terms/ssl-warranty.html.twig",
+		"/Users/alex/Projects/bbHost/Notes/content.txt",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/ssl.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/pre-register.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/premium.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/pricing.html.twig",
+		"/Users/alex/Projects/bbHost/Site/css/foundation.css",
+		"/Users/alex/Projects/bbHost/Notes/TODO LIST",
+		"/Users/alex/Projects/bbHost/Site/views/base.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/ssl/positive.html.twig",
+		"/Users/alex/Documents/jwplayer-test/index.html",
+		"/Users/alex/Projects/bbHost/Site/jwplayer-test/index.html",
+		"/Users/alex/Desktop/pacca-todo2.txt",
+		"/Users/alex/Projects/bbHost/Site/views/pages/index.html.twig",
+		"/Users/alex/Projects/bbHost/Theme/blog_category.html",
+		"/Users/alex/Projects/bbHost/Site/views/blog/base.html.twig",
+		"/Users/alex/Projects/bbHost/Site/content/blog/tags.txt",
+		"/Users/alex/Projects/bbHost/Site/views/blog/tag.html.twig",
+		"/Users/alex/Projects/bbHost/Site/modules/blog/index.php",
+		"/Users/alex/Projects/bbHost/Site/views/blog/post.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/blog/index.html.twig",
+		"/Users/alex/Projects/bbHost/Site/content/blog/posts/3.txt",
+		"/Users/alex/Projects/bbHost/Site/content/blog/posts/2.txt",
+		"/Users/alex/Projects/bbHost/Site/content/blog/posts/1.txt",
+		"/Users/alex/Projects/bbHost/Site/index.php",
+		"/Users/alex/Projects/bbHost/Theme/blog_single.html",
+		"/Users/alex/Projects/bbHost/Site/views/blog/category.html.twig",
+		"/Users/alex/Projects/bbHost/Site/content/blog/1.txt",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/fivelayerwhmcs/clientareaproductdetails.tpl",
+		"/Users/alex/Projects/bbHost/Site/.htaccess",
+		"/Users/alex/Projects/bbHost/Site/views/pages/about.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/hosting.html.twig",
+		"/Users/alex/Projects/bbHost/Site/js/custom.js",
+		"/Users/alex/Projects/bbHost/Site/views/pages/terms/hosting.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/terms/domains.html.twig",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/fivelayerwhmcs/clientareadomaindetails.tpl",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/orderform/fivelayerboxes/viewcart.tpl",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/orderform/fivelayerboxes/products.tpl",
+		"/Users/alex/Projects/bbHost/Site/style.css",
+		"/Users/alex/Projects/bbHost/Site/views/pages/bundles.html.twig",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/orderform/fivelayerboxes/configuredomains.tpl",
+		"/Users/alex/Projects/bbHost/Theme/servers.html",
+		"/Users/alex/Projects/bbHost/Site/lib/bootstrap.inc.php",
+		"/Users/alex/Projects/bbHost/Site/modules/blog.php",
+		"/Users/alex/Projects/bbHost/Site/views/pages/blog.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/terms/privacy.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/terms/registrar.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/terms/master.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/tlds.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/transfers.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/blocks/domain-search.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/wtf.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/new-tlds.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/new-domain-tlds.html.twig",
+		"/Users/alex/Projects/bbHost/Site/views/pages/domains/new-domain-tlds.twig",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/orderform/fivelayerboxes/adddomain.tpl",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/fivelayerwhmcs/css/custom.css",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/fivelayerwhmcs/header.tpl",
+		"/Users/alex/Projects/bbHost/WHMCS-Theme/fivelayerwhmcs/footer.tpl",
+		"/Users/alex/Projects/bbHost/Site/views/pages/index.html",
+		"/Users/alex/Projects/bbHost/Theme/index.html",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Resources/public/js/tipster.js",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Controller/TipController.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Form/Type/TipType.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Form/TipAdminType.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Entity/Tip.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Tests/Services/SettlerManager/1x2Test.php",
+		"/Users/alex/Projects/labit-cms/app/config/parameters.yml",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Tests/Services/SettlerManager/OeTest.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Tests/Services/SettlerManager/CsTest.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Tests/Services/SettlerManager/DcTest.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/views/Pages/HomePage/pagetemplate.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Match/show.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Services/SettlerManager.php",
+		"/Users/alex/Projects/labit-cms/app/config/config_prod.yml",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Tests/Services/SettlerManager/GsTest.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Controller/TipsterController.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Services/TipManager.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Command/SettleTipsCommand.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Tests/Services/SettlerManager/AhTest.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/DataFixtures/ORM/LoadTipData.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Tests/Services/SettlerManager/12Test.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Resources/config/services.yml",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/DataFixtures/ORM/LoadUserContestData.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Services/UserContestManager.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Controller/ContestController.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Match/lineup.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Standings/team.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Match/listInprogress.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Scores/_list.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/public/js/megamenu.js",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/public/js/script.js",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/public/js/match.js",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Team/matches.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Team/listByCountry.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Statistics/teamsByMatch.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Team/show.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/views/Layout/layout.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/FootballNewsBundle/Entity/News/NewsPage.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Controller/ScoresController.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/GuideBundle/Entity/Pages/ArticlePage.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Entity/Pages/HomePage.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/FootballNewsBundle/Entity/News/NewsOverviewPage.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/GuideBundle/Entity/Pages/CategoryPage.php",
+		"/Users/alex/Projects/labit-cms/web/app.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Match/listHeadToHead.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Controller/TeamController.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/views/Layout/_js_header.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Controller/CountryController.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Country/listTeamCountries.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Competition/show.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Odds/bestByMatchDay.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Controller/StandingsController.php",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaTipsterBundle/Resources/views/Tipster/newTipForm.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Scores/show.html.twig",
+		"/Users/alex/Projects/labit-cms/web/vendor/sass-bootstrap/lib/_navbar.scss",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/public/scss/config/bootstrap-config/_bootstrap-config.scss",
+		"/Users/alex/Projects/labit-cms/src/LabIT/KumaFootballBundle/Resources/views/Team/list.html.twig",
+		"/Users/alex/Projects/labit-cms/src/LabIT/CMSBundle/Resources/public/scss/custom-css/_navigation.scss"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/alex/Projects/labit-cms/src/LabIT"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/idevaffiliate",
+			"idev",
+			"notif",
+			"-3",
+			"h3",
+			"9",
+			"%",
+			"private",
+			"render",
+			"appen",
+			"�",
+			"���",
+			"�",
+			"���Registry TLDs���",
+			"�",
+			"���Registry���",
+			"���Registry TLD���",
+			"���",
+			"�",
+			"Registry���s",
+			"���",
+			"���the",
+			"���",
+			"�",
+			"<#",
+			"\n\n",
+			"”",
+			"“",
+			"ORDERBO",
+			"\n\n",
+			"�",
+			"\n\n",
+			"Orderbox",
+			"<",
+			"\n\n",
+			"orderbox",
+			"<",
+			"jQuery",
+			"column",
+			"padding:",
+			"<img",
+			"<option>",
+			"\n.",
+			"forwar",
+			"\n.",
+			".com",
+			"food",
+			"modulecli",
+			"4",
+			"h3",
+			"<li>",
+			"20",
+			"h2",
+			"h6",
+			"item=domainfi",
+			"ga",
+			"google",
+			" ",
+			" | ",
+			"200",
+			"h2",
+			"#C07474",
+			"#FE8F8C",
+			"<li>",
+			"</a>",
+			"<i",
+			"<li>",
+			"BBHost",
+			"score_halftime",
+			"goals_from",
+			"resultHt",
+			"score_halftime",
+			"home",
+			"score_ordinarytime",
+			"TODO",
+			"setMarketSc",
+			"self::$container->get('tipster.settler_manager')",
+			"?",
+			"score_halftime",
+			"score_ordinary_time",
+			"MarketTypeName",
+			"marketTypeName",
+			"marketId",
+			"markettype",
+			"homeResult",
+			"tipOutcome",
+			"getApiOut",
+			"getApiOutcomeD",
+			"getApiMarketData",
+			"outcomeDescription",
+			"markets",
+			"preview",
+			"setSharedMaxAge",
+			"======",
+			"s.",
+			"\"",
+			"home",
+			"divisible by",
+			"Home",
+			"home",
+			"Home",
+			"First",
+			"home",
+			"inittipste",
+			"name",
+			"\"fruit\"",
+			"spin",
+			"ajax",
+			"spin",
+			"ajax",
+			"height",
+			"badge-label",
+			"			</li>\n			<li>",
+			"<img",
+			"80px",
+			" style=\"max-width:32px;\"",
+			"free-bets",
+			"div",
+			"float",
+			"respon",
+			"li",
+			"src",
+			"span",
+			"li",
+			"ul",
+			"customPaging",
+			"Resizer",
+			"headroom"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&quot;Registry TLDs&quot;",
+			"&quot;Registry&quot;",
+			"&quot;Registry TLD&quot;",
+			"Registry's",
+			"</p>\n\n<p>",
+			"<option>.",
+			"</option>\n<option>",
+			"</span>\n<span class=\"label\">",
+			"#d7ab00",
+			"#ffcb00"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jquery-analytics-events.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/labit-cms.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
