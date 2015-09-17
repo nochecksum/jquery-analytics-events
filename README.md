@@ -11,23 +11,23 @@ Track clicks and other events through a simple jQuery plugin by using data attri
 * Include Google Analytics tracking code on your web page(s)
 * After jQuery and GA is loaded, include the plugin and instantiate it:
 
-	<script src="/path/to/jquery.analytics-events.js"></script>
-	<script>
-		$('*[data-analytics]').eventify();
-	</script>
+		<script src="/path/to/jquery.analytics-events.js"></script>
+		<script>
+			$('*[data-analytics]').eventify();
+		</script>
 
 * Now include a link on the page with data tags to start tracking:
 
-	<a
-		href="https://www.google.com/"
-		data-analytics="true"
-		data-analytics-action="click"
-		data-analytics-category="Clickthrough"
-		data-analytics-label="Google Search"
-		data-analytics-value=5
-	>
-		Search Google
-	</a>
+		<a
+			href="https://www.google.com/"
+			data-analytics="true"
+			data-analytics-action="click"
+			data-analytics-category="Clickthrough"
+			data-analytics-label="Google Search"
+			data-analytics-value=5
+		>
+			Search Google
+		</a>
 
 For more information see the /demo/index.html page included in this repository
 
