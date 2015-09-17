@@ -43,7 +43,7 @@
     };
 
     $.fn.aeBlockingTrack = function(aeCategory,aeAction,aeLabel,aeValue,url) {
-		//console.log( 'Blocking event data: ' + [aeCategory,aeAction,aeLabel,aeValue] );
+		console.log( 'Blocking event data: ' + [aeCategory,aeAction,aeLabel,aeValue] );
 		ga('send', 'event', aeCategory, aeAction, aeLabel, {'hitCallback':function(){
 			//console.log( 'Blocking data callback: ' + url );
 			document.location = url;
@@ -51,7 +51,7 @@
     };
 
     $.fn.aeSimpleTrack = function(aeCategory,aeAction,aeLabel,aeValue) {
-		//console.log( 'Simple event data: ' + [aeCategory,aeAction,aeLabel,aeValue] );
-		ga('send', 'event', aeCategory, aeAction, aeLabel);
+		console.log( 'Simple event data: ' + [aeCategory,aeAction,aeLabel,aeValue] );
+		ga('send', 'event', aeCategory, aeAction, aeLabel, aeValue);
     };
 }( jQuery ));
